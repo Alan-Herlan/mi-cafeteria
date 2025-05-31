@@ -1,0 +1,86 @@
+const menuItems = [
+  {
+    id: 1,
+    category: 'Café',
+    name: 'Espresso',
+    description: 'Café fuerte y concentrado, servido en taza pequeña.',
+    price: '$2.50',
+    image: 'https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=400&q=80',
+  },
+  {
+    id: 2,
+    category: 'Café',
+    name: 'Capuccino',
+    description: 'Espresso con espuma cremosa de leche y cacao espolvoreado.',
+    price: '$3.50',
+    image: 'https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=400&q=80',
+  },
+  {
+    id: 3,
+    category: 'Pasteles',
+    name: 'Cheesecake',
+    description: 'Tarta cremosa con base de galleta y relleno de queso.',
+    price: '$4.00',
+    image: 'https://images.unsplash.com/photo-1524351199678-941a58a3df50?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+  },
+  {
+    id: 4,
+    category: 'Bebidas',
+    name: 'Limonada',
+    description: 'Refrescante bebida natural de limón con un toque de menta.',
+    price: '$2.00',
+    image: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=80',
+  },
+  {
+    id: 5,
+    category: 'Café',
+    name: 'Latte',
+    description: 'Espresso con leche vaporizada y una fina capa de espuma.',
+    price: '$3.75',
+    image: 'https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&w=400&q=80',
+  },
+  {
+    id: 6,
+    category: 'Café',
+    name: 'Mocha',
+    description: 'Espresso con chocolate caliente, leche y espuma cremosa.',
+    price: '$4.00',
+    image: 'https://images.unsplash.com/photo-1530373239216-42518e6b4063?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+  },
+  {
+    id: 7,
+    category: 'Pasteles',
+    name: 'Brownie',
+    description: 'Denso y húmedo pastel de chocolate con nueces.',
+    price: '$3.50',
+    image: 'https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=400&q=80',
+  },
+  {
+    id: 8,
+    category: 'Pasteles',
+    name: 'Tarta de manzana',
+    description: 'Tarta clásica con relleno de manzana especiada.',
+    price: '$4.25',
+    image: 'https://images.unsplash.com/photo-1621743478914-cc8a86d7e7b5?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+  },
+  {
+    id: 9,
+    category: 'Bebidas',
+    name: 'Té helado',
+    description: 'Té negro frío con limón y un toque de menta.',
+    price: '$2.50',
+    image: 'https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=400&q=80',
+  },
+  {
+    id: 10,
+    category: 'Bebidas',
+    name: 'Smoothie de frutas',
+    description: 'Mezcla de frutas frescas con yogur y miel.',
+    price: '$3.75',
+    image: 'https://images.unsplash.com/photo-1497534446932-c925b458314e?auto=format&fit=crop&w=400&q=80',
+  },
+];
+
+export default menuItems; // ✅ ESTA LÍNEA ES CLAVE
+
+
