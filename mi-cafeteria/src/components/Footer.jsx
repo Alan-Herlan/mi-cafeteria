@@ -1,26 +1,20 @@
 import { FaFacebookF, FaInstagram, FaWhatsapp } from 'react-icons/fa';
+import styles from './Footer.module.css';
 
 function Footer() {
   return (
-    <footer
-      style={{
-        backgroundColor: '#2c1a0b',
-        color: 'white',
-        textAlign: 'center',
-        padding: '2rem',
-        marginTop: '2rem',
-      }}
-    >
-      <p style={{ marginBottom: '1rem', fontSize: '1.1rem' }}>
+    <footer className={styles.footer}>
+      <p className={styles.copy}>
         © 2025 Café Aromático. Todos los derechos reservados por casicompila.
       </p>
 
-      <div style={{ fontSize: '2rem', display: 'flex', justifyContent: 'center', gap: '1.5rem' }}>
+      <div className={styles.socialIcons}>
         <a
           href="https://facebook.com"
           target="_blank"
           rel="noopener noreferrer"
-          style={{ color: '#4267B2', transition: 'transform 0.3s' }}
+          aria-label="Facebook"
+          className={styles.icon}
         >
           <FaFacebookF />
         </a>
@@ -28,7 +22,8 @@ function Footer() {
           href="https://instagram.com"
           target="_blank"
           rel="noopener noreferrer"
-          style={{ color: '#E1306C', transition: 'transform 0.3s' }}
+          aria-label="Instagram"
+          className={styles.icon}
         >
           <FaInstagram />
         </a>
@@ -36,7 +31,8 @@ function Footer() {
           href="https://wa.me/5491123456789"
           target="_blank"
           rel="noopener noreferrer"
-          style={{ color: '#25D366', transition: 'transform 0.3s' }}
+          aria-label="WhatsApp"
+          className={styles.icon}
         >
           <FaWhatsapp />
         </a>
@@ -46,5 +42,6 @@ function Footer() {
 }
 
 export default Footer;
+
 
 
